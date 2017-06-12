@@ -1,0 +1,52 @@
+// Bulma consists of 29 scss files that you can import individually.
+// Simply import the utilities dependencies, and then the files you need directly
+// Or use import below to import them all together
+//@import '~bulma-scss/bulma.scss';
+
+@charset 'utf-8';
+
+//utilities
+@import '~bulma-scss/scss/utilities/_functions.scss';
+@import './_variables.scss';
+@import '~bulma-scss/scss/utilities/_mixins.scss';
+@import '~bulma-scss/scss/utilities/_controls.scss';
+
+//base
+@import '~bulma-scss/scss/base/_minireset.scss';
+@import '~bulma-scss/scss/base/_generic.scss';
+@import '~bulma-scss/scss/base/_helpers.scss';
+
+//elements
+@import '~bulma-scss/scss/elements/_box.scss';
+@import '~bulma-scss/scss/elements/_button.scss';
+@import '~bulma-scss/scss/elements/_content.scss';
+@import '~bulma-scss/scss/elements/_form.scss';
+@import '~bulma-scss/scss/elements/_icon.scss';
+@import '~bulma-scss/scss/elements/_image.scss';
+@import '~bulma-scss/scss/elements/_notification.scss';
+@import '~bulma-scss/scss/elements/_progress.scss';
+@import '~bulma-scss/scss/elements/_table.scss';
+@import '~bulma-scss/scss/elements/_tag.scss';
+@import '~bulma-scss/scss/elements/_title.scss';
+@import '~bulma-scss/scss/elements/_other.scss';
+
+//components
+@import '~bulma-scss/scss/components/_card.scss';
+@import '~bulma-scss/scss/components/_level.scss';
+@import '~bulma-scss/scss/components/_media.scss';
+@import '~bulma-scss/scss/components/_menu.scss';
+@import '~bulma-scss/scss/components/_message.scss';
+@import '~bulma-scss/scss/components/_modal.scss';
+@import '~bulma-scss/scss/components/_nav.scss';
+@import '~bulma-scss/scss/components/_pagination.scss';
+@import '~bulma-scss/scss/components/_panel.scss';
+@import '~bulma-scss/scss/components/_tabs.scss';
+
+//grid
+@import '~bulma-scss/scss/grid/_columns.scss';
+@import '~bulma-scss/scss/grid/_tiles.scss';
+
+//layout
+@import '~bulma-scss/scss/layout/_hero.scss';
+@import '~bulma-scss/scss/layout/_section.scss';
+@import '~bulma-scss/scss/layout/_footer.scss';
