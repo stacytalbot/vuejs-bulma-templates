@@ -1,12 +1,12 @@
 <template>
   <div class="nav-right">
-    <span v-show="burger" class="nav-toggle" @click="toggleBurgerNav">
+     <span v-show="burger" class="nav-toggle" :class="{ 'is-active' : burgerOpen }" @click="toggleBurgerNav">
       <span></span>
       <span></span>
       <span></span>
     </span>
 
-    <nav class="nav-right nav-menu">
+    <nav class="nav-right nav-menu" :class="{ 'is-active' : burgerOpen }">
       <slot></slot>
     </nav>
   </div>
@@ -22,7 +22,8 @@
 
     data() {
       return {
-        links: []
+        links: [],
+        burgerOpen: false
       }
     },
 
@@ -42,7 +43,7 @@
       },
 
       toggleBurgerNav(){
-        console.log(this)
+        this.burgerOpen = !this.burgerOpen
       }
     }
   }
