@@ -14,7 +14,10 @@ module.exports = {
         {
           loader: 'sass-resources-loader',
           options: {
-            resources: 'app/javascript/styles/utilities/_rem-calc.scss',
+            resources: [
+              'app/javascript/styles/utilities/_rem-calc.scss',
+              'app/javascript/styles/bulma/_variables.scss'
+            ]
           },
         },
       ],

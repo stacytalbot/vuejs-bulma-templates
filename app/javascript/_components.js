@@ -9,8 +9,8 @@ import Navigation from './components/nav/Nav.vue'
 import NavItem from './components/nav/NavItem.vue'
 
 import Pagination from './components/pagination/Pagination.vue'
-import PaginationLink from './components/pagination/PaginationLink.vue'
-import PaginationButton from './components/pagination/PaginationButton.vue'
+
+import Accordion from './components/accordion/Accordion.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if(document.querySelectorAll(components)){
     new Vue({
       el: components,
-      components: { Tabs, Tab, Modal, Navigation, NavItem, Pagination }
+      components: { Tabs, Tab, Modal, Navigation, NavItem, Pagination, Accordion }
     })
   }
 })
